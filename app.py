@@ -37,5 +37,4 @@ def predict():
         return jsonify({'prediction': disease_name})
         
 
-if __name__ == '__main__':
-    app.run(debug=True)
+
